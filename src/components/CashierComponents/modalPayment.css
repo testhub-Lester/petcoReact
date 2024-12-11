@@ -1,0 +1,293 @@
+/* Payment Modal */
+.modalPayment-modal {
+    margin: 0px;
+}
+
+.modalPayment-panel {
+    background-color: #fefefe;
+    margin: 2% auto;
+    border: 1px solid #888;
+    width: 95%;
+    height: 92%;
+}
+
+.modalPayment-panel hr {
+    margin: auto;
+    width: 98%;
+}
+
+.modalPayment-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.modalPayment-header-side {
+    display: flex;
+    gap: 1rem;
+}
+
+.modalPayment-header button {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+    gap: .5rem;
+}
+
+.modalPayment-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.modalPayment-header-side button i {
+    font-size: 1rem;
+}
+
+.modalPayment-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 42rem;
+}
+
+.modalPayment-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    padding: 5px;
+}
+
+.modalPayment-info .payment-transaction-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.payment-total-amount {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.payment-tags label{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.payment-tags p{
+    font-size: 1rem;
+}
+
+.payment-tags label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-tags hr {
+    margin: 5px;
+}
+
+
+
+.payment-input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.payment-amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.payment-amount label {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.payment-amount input {
+    text-align: right;
+    font-size: 2rem;
+    border: solid 2px gray;
+    padding: 5px;
+    width: 30%;
+    outline: 0;
+}
+
+.payment-amount input:hover {
+    border: solid 2px black;
+}
+
+.payment-amount input::placeholder{
+    color: white;
+}
+
+.payment-amount select {
+    width: 8rem;
+    height: 3rem;
+    padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.payment-change {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    gap: 1rem;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.payment-change {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.transactionOtherInfo .payment-timeAndDate{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+.modalPayment-printView {
+    margin: 5px;
+    width: 69%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.view-itemList{
+    display: flex;
+    flex-direction: column;
+}
+
+.view-itemList table thead th{
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.view-itemList table tbody td{
+    padding: 1rem;
+}
+
+.view-itemList table thead th{
+    text-align: start;
+}
+
+.view-itemList table tbody td .table-itemName {
+    width: 15rem;
+}
+
+.view-itemList table tbody td .table-options{
+    display: flex;
+    gap: 1rem;
+}
+
+.printView-details-bill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.printView-details-bill label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.printView-details {
+    padding: 10px;
+}
+
+.printView-details-tags {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.printView-details-tags label {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.modalPayment-footer {
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.modalPayment-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 20rem;
+    padding: .5rem;
+    margin-right: 6rem;
+}
+.modalPayment-footer button{
+    color: white;
+    background-color: #007bff;
+}
+.modalPayment-footer button:hover {
+    background-color: #3b96f7;
+}
+
+.loading-beforeclose {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+}
+
+.loading-beforeclose label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+    color: gray;
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+    height: 30%;
+}
+
+.payment-input hr{
+    margin: 1rem;
+}
+
+.payment-customer {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+}

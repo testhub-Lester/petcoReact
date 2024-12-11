@@ -1,0 +1,20 @@
+.container-analytics {
+    display: flex;
+    background-color: #ECEFF0;
+    height: 100rem;
+}
+
+.main-analytics {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 1rem;
+    
+    margin-top: .5rem;
+}
+
+.topSide-analytics,
+.bottomSide-analytics {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,27 @@
+.container-inventory {
+    display: flex;
+    background-color: #ECEFF0;
+    height: 100rem;
+    overflow: hidden;
+}
+
+.topBar-inventory{
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.main-inventory {
+    width: 100%;
+    margin: 1rem;
+}
+
+.main-inventory hr{
+    margin-top: 10px;
+    
+}
+
+.topBar-inventory {
+    display: flex;
+    align-items: center;
+}

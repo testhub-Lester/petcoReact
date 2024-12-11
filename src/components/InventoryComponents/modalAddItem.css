@@ -1,0 +1,192 @@
+/* Add Item Modal - Inventory */
+.addItem-modal {
+    margin: 0px;
+}
+
+
+.addItem-container{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.addItem-content-info {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.addItem-panel {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    width: 35%;
+}
+
+.addItem-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.addItem-header h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.addItem-header h1 span{
+    font-size: 2rem;
+}
+
+.addItem-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.addItem-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.addItem-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.selectionCategory .selections {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 20rem;
+    padding: 5px;
+}
+
+.selections label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.selections select {
+    font-size: 1rem;
+    border: none;
+    border-bottom: solid 2px gray;
+    padding: 5px;
+}
+
+.itemAdd-name {
+    display: grid;
+    margin: 10px;
+}
+
+.itemAdd-name label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemAdd-name input{
+    border: none;
+    border-bottom: solid 2px gray;
+    margin-top: 5px;
+}
+
+.itemAdd-name select{
+    font-size: 1rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+
+.itemAdd-price, .itemAdd-quantity {
+    display: flex;
+    align-self: start;
+    flex-direction: column;
+    margin: .5rem;
+}
+
+.itemAdd-price input {
+    text-align: end;
+    border: none;
+    border-bottom: solid 2px gray;
+    width: 10rem;
+}
+
+.itemAdd-quantity input {
+    text-align: end;
+    border: none;
+    border-bottom: solid 2px gray;
+    width: 10rem;
+    margin-left: 1rem;
+}
+
+.addItem-content input {
+    align-self: center;
+    resize: none;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.addItem-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.addItem-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 10rem;
+    padding: .5rem;
+}
+
+.addItem-footer button:hover {
+    border: solid 3px gray;
+}
+
+.addItem-footer button span {
+    font-size: 2rem;
+}
+
+.addItem-footer button.save {
+    color: white;
+    background-color: #042A46;
+}
+
+.addItem-footer button.cancel {
+    color: white;
+    background-color: red;
+}
+
+.addItem-topbarOption {
+    display: flex;
+    gap: 5rem;
+}
+.imageInsert {
+    display: flex;
+    flex-direction: column;
+}
+.imageInsert img{
+    width: 11rem;
+    height: 10rem;
+    margin-top: 1rem;
+    border: solid 1px gray;
+}
+
+.imageInsert input{
+    font-size: .8rem;
+    cursor: pointer;
+}

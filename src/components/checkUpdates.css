@@ -1,0 +1,91 @@
+.checkUpdates-container {
+    position: fixed;
+    z-index: 1;
+    top: 0.5rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.bulletinNotif-container {
+    display: flex;
+    background-color: #042A46;
+    color: white;
+    gap: 2rem;
+    padding: 15px;
+    width: 27rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.bulletinNotif-container button {
+    all: unset;
+}
+.bulletinNotif-container span {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.bulletinNotif-container button:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+
+/*            */
+
+
+.informationNotif-container {
+    display: flex;
+    background-color: #042A46;
+    color: white;
+    gap: 2rem;
+    padding: 15px;
+    padding-left: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.informationNotif-container button {
+    all: unset;
+}
+.informationNotif-container span {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.informationNotif-container button:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+
+/*            */
+
+
+.lowNotif-container {
+    display: flex;
+    background-color: orange;
+    color: white;
+    gap: 2rem;
+    padding: 15px;
+    padding-left: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.lowNotif-container button {
+    all: unset;
+}
+
+.lowNotif-container span {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.lowNotif-container button:hover {
+    color: gray;
+    cursor: pointer;
+}
+

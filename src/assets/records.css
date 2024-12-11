@@ -1,0 +1,29 @@
+.container-records {
+    display: flex;
+    background-color: #ECEFF0;
+    width: 119rem;
+    height: 100rem;
+    overflow: hidden;
+}
+
+.main-records {
+    width: 100%;
+    margin: 1rem;
+}
+
+.topBar-records{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.topBar-records hr {
+    width: 100%;
+}
+
+.content-records {
+    display: flex;
+    justify-content: space-between;
+}
+

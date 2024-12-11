@@ -1,0 +1,94 @@
+/* SearchBar - Inventory */
+
+.searchBarPanel-inventory{
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    width: 40rem;
+    padding: 10px;
+
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+}
+
+.searchBar-inventory {
+    display: flex;
+    margin: 2%;
+}
+
+.searchBar-inventory input{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #D4D4D4;
+    border: solid 3px gray;
+    border-right: none;
+    width: 32rem;
+    height: 2.5rem;
+    padding: 5px;
+    outline: none;
+}
+
+.searchBar-inventory button{
+    color: black;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: #D4D4D4;
+    border: solid 3px gray;
+    border-left: none;
+    width: 10rem;
+    height: 3.5rem;
+}
+
+.searchBar-inventory button:hover{
+    color: white;
+    background-color: black;
+}
+
+.quick-filter-inventory {
+    display: flex;
+    justify-content: start;
+    gap: .5rem;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.quick-filter-inventory h4{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 18px;
+    width: 10px;
+    margin-right: 3rem;
+}
+
+.quick-filter-inventory button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px gray;
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.quick-filter-inventory button:hover {
+    color: white;
+    background-color: black;
+}
+
+.quick-filter-inventory select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: solid 3px gray;
+    font-family: monospace;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

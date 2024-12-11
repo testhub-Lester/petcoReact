@@ -1,0 +1,82 @@
+/* Transaction List - Analytics */
+
+.adminA-inventoryListPanel {
+    margin: 0;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.adminA-inventoryListHeader {
+    background-color: #042A46;
+    padding: 10px;
+}
+
+.adminA-inventoryListHeader h2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    gap: 1rem;
+}
+
+.adminA-inventoryListContent {
+    background-color: white;
+    height: 31rem;
+    padding: 10px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+.adminA-inventoryListContent hr {
+    width: 90%;
+    margin: auto;
+    margin: 10px;
+}
+
+.adminA-inventoryListContent-header {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    font-weight: bolder;
+}
+
+.adminA-inventoryListContent-header label {
+    color: gray;
+    overflow: hidden;
+    width: 6rem;
+}
+
+.adminA-inventoryListContent-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminA-inventoryListContent-list hr {
+    margin: 10px;
+}
+
+.adminA-inventoryListContent-list label {
+    overflow: hidden;
+    width: 6rem;
+}
+
+.adminA-inventoryItems {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.adminA-inventoryItems button {
+    border: solid 2px black;
+    font-style: italic;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 5rem;
+    padding: .5rem;
+}
+
+.adminA-inventoryItems button:hover {
+    color: gray;
+    border: solid 2px gray;
+}

@@ -1,0 +1,134 @@
+
+.accountList-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 60rem;
+    height: 45rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .3);
+}
+
+.accountList-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+}
+
+.accountList-header h2 {
+    margin-left: 1rem;
+}
+
+.accountList-option {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.accountList-option button{
+    color: white;
+    background-color: #042A46;
+    border: solid 2px white;
+    width: 6rem;
+    padding: .5rem;
+}
+
+.accountList-option button:hover {
+    background-color: gray;
+}
+
+.accountList-list {
+    height: 100%;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.accountList-name {
+    width: 25rem;
+}
+
+.accountList-list table{
+    width: 100%;
+    padding: .5rem;
+}
+
+.accountList-list table thead th{
+    text-align: start;
+    font-size: 1.5rem;
+    color: gray;
+    border-bottom: solid 2px black;
+    padding: .2rem;
+}
+
+.accountList-list table tbody td {
+    border-bottom: solid 1px black;
+    padding: .5rem;
+    overflow: hidden;
+}
+
+.accountList-list table tbody td button {
+    cursor: pointer;
+    font-size: 1rem;
+    font-style: italic;
+    color: blue;
+    border: none;
+    background-color: white;
+    padding: .5rem;
+}
+
+.accountList-list table tbody td button:hover {
+    color: gray;
+}
+
+.accountList-head {
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 2px black;
+}
+
+.accountList-head label{
+    font-size: 1.7rem;
+    width: 13rem;
+    padding: 10px;
+}
+
+.accountList-content label button {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: blue;
+    background-color: white;
+    border: none;
+}
+
+.accountList-content label button:hover {
+    color: rgb(98, 98, 243);
+}
+
+.accountList-head p {
+    font-size: 1.7rem;
+    width: 20rem;
+    padding: 10px;
+}
+
+
+
+.accountList-content {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 2px gray;
+}
+
+.accountList-content label{
+    font-size: 1.2rem;
+    width: 13rem;
+    padding: 10px;
+}
+
+.accountList-content p {
+    font-size: 1.2rem;
+    width: 20rem;
+    padding: 10px;
+}

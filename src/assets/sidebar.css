@@ -1,0 +1,93 @@
+.containers-sidebar {
+    display: flex;
+    align-content: space-between;
+    gap: 1rem;
+    margin-top: .1rem;
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: white;
+    height: 53rem;
+}
+
+.sidebar nav{
+    display: flex;
+    flex-direction: column;
+    width: 9rem;
+    padding: 1rem;
+    
+}
+  
+.sidebar nav li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar nav li .nav-item {
+    display: flex;
+    gap: .5rem;
+    margin-left: .5rem;
+}
+
+
+
+.sidebar label.adminNav {
+    display: flex;
+    border: solid 2px gray;
+
+    width: 9.5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.sidebar label .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 1rem;
+}
+  
+.links {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.links:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.sidebar button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    border: solid 2px gray;
+
+    width: 8.5rem;
+    height: 2rem;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.sidebar button:hover {
+    color: white;
+    background-color: gray;
+    border: solid 2px black;
+}
+
+.sidebar button:hover label{
+    color: white;
+}

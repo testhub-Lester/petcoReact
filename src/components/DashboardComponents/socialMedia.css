@@ -1,0 +1,53 @@
+/* Social Media */
+
+.socialMediaPanel {
+    background-color: white;
+
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.socialMedia-header {
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    background-color: #042A46;
+
+    padding:10px;
+}
+
+.socialMedia-header h2 {
+    color: var(--font-color-header);
+}
+
+.socialMedia-header button {
+    color: var(--edit-dash-btn-color);
+    background-color: var(--edit-dash-btn-bg);
+    border: var(--edit-dash-btn-border);
+
+    width: 4rem;
+    height: 30px;
+}
+
+.socialMedia-info {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding:15px;
+}
+
+.socialMedia-info a{
+    border: solid 3px black;
+    border-radius: var(--border-radius);
+    padding: 15px;
+
+}
+
+.socialMedia-info a:hover{
+    background-color: #D4D4D4;
+}
+
+.socialMedia-info i {
+    color: black;
+    font-size: 30px;
+}

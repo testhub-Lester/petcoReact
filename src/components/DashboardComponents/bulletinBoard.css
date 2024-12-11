@@ -1,0 +1,116 @@
+/* Bulletin Board - Dashboard */
+
+.bulletinPanel{
+    background-color: white;
+    
+    width: 38rem;
+    height: 18rem;
+
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.bulletin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: white;
+    background-color: #042A46;
+}
+
+.bulletin-header h2{
+    padding: .5rem;
+}
+
+.bulletin-header button{
+    color: black;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 10px;
+    
+    width: 4rem;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.bulletin-header button:hover {
+    color: white;
+    background-color: gray;
+}
+
+.bulletin-info {
+    height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.bulletin-info-container {
+    border: solid 2px gray;
+    height: 13rem;
+    margin: 1rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.bulletin-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bulletin-info-content label.authorTitle{
+    color: white;
+    background-color: #042A46;
+    padding: .8rem;
+    margin: .2rem;
+    width: 3rem;
+}
+
+.bulletin-info-content textarea.content {
+    all: unset;
+    padding: .8rem;
+    width: 32.5rem;
+    height: 6rem;
+
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.bulletin-info-content label.date {
+    display: flex;
+    justify-content: end;
+    font-size: .8rem;
+    gap: 1rem;
+    margin: .5rem;
+}
+
+.bulletin-info-content label.date p {
+    color: gray;
+    padding: .5rem;
+}
+
+.bulletin-header p{
+    font-size: 1rem;
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    width: 2rem;
+    padding: .2rem;
+}
+
+.bulletin-info-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bulletin-info-content-header button {
+    background-color: white;
+    border-radius: 10px;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.bulletin-info-content-header button:hover {
+    color: white;
+    background-color: gray;
+}

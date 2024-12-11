@@ -1,0 +1,153 @@
+/* Report Analysis Panel - Analytics */
+
+.reportAnalysisPanel {
+    z-index: .5;
+    background-color: white;
+    width: 105rem;
+    height: 25rem;
+    padding: 10px;
+}
+
+.reportAnalysis-topContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContent-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftContent-info-top {
+    display: flex;
+    gap: 1rem;
+}
+
+.leftContent-info-top label {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #042A46;
+    padding: 10px;
+}
+
+.leftContent-info-top button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-bottom: solid 2px gray;
+    width: 16rem;
+}
+
+.leftContent-info-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 20px;
+}
+
+.leftContent-info-middle label {
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+.leftContent-info-middle label h1 {
+    font-size: 3rem;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.leftContent-info-middle label h2 {
+    color: black;
+    font-size: 2rem;
+    width: 9rem;
+    padding: 10px;
+}
+
+.leftContent-info-middle label p {
+    color: rgb(77, 77, 77);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* RIGHT CONTENT - STATS */
+
+.rightContent-stats {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.rightContent-header {
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    
+    margin-left: 80px;
+}
+
+.rightContent-header button {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-bottom: solid 2px gray;
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+
+
+.rightContent-main {
+    display: flex;
+    gap: 1rem;
+    margin: 10px;
+}
+
+.rightContent-main-row {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: gray;
+    gap: 2.2rem;
+}
+
+.rightContent-main-chart {
+    border: solid 2px gray;
+    border-top: none;
+    border-right: none;
+    width: 37rem;
+    height: 18em;
+}
+
+.rightContent-main-chart h1 {
+    text-align: center;
+}
+
+.rightContent-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightContent-report {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+.rightContent-report button {
+    color: black;
+    background-color: white;
+    border: none;
+    border-bottom: solid 2px gray;
+    
+    padding: 1rem;
+    margin: .5rem;
+    margin-top: 1rem;
+}

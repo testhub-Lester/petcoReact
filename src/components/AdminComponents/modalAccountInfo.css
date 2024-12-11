@@ -1,0 +1,116 @@
+
+.accountInfo-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.accountInfo-modal {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.accountInfo-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.accountInfo-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.accountInfo-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.accountInfo-content {
+    background-color: white;
+    height: 23rem;
+}
+
+.accountInfo-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.accountInfo-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.accountInfo-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accountInfo-content h2{
+    margin: 2rem;
+}
+
+.accountInfo-footer button:hover {
+    border: solid 3px gray;
+}
+
+.accountInfo-footer button span {
+    font-size: 2rem;
+}
+
+.accountInfo-footer button.save {
+    color: white;
+    background-color: #042A46;
+}
+
+.accountInfo-footer button.cancel {
+    color: white;
+    background-color: red;
+}
+
+.AccountInformation-content {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.AccountInformation-content label{
+    display: flex;
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+.AccountInformation-content label p {
+    margin-left: 1rem;
+}
+
+.PersonalInformation-content {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+}
+
+.PersonalInformation-content label{
+    display: flex;
+    font-size: 1.2rem;
+    margin: 1rem;
+    margin-left: 3rem;
+}

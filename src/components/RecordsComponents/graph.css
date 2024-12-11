@@ -1,0 +1,38 @@
+/* Graph - Records */
+
+.record-graph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 1.5rem;
+    width: 40rem;
+    height: 10.2rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.item {
+    display: flex;
+    align-items: start;
+    font-size: 1rem;
+    font-weight: bolder;
+    gap: .5rem;
+    margin: 5px;
+}
+
+
+.item span{
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.graph-circle{
+    width: 8.5rem;
+    height: 8.5rem;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}

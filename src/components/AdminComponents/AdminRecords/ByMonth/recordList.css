@@ -1,0 +1,86 @@
+/* Record List - Records */
+
+.admin-recordContainer {
+    display: flex;
+    width: 95rem;
+    gap: 1rem;
+}
+
+.admin-record-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+    border: solid 5px #042A46;
+    width: 100%;
+    height: 43rem;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.admin-record-list table {
+    text-align: center;
+    width: 95%;
+}
+
+.admin-record-list table thead {
+    color: white;
+    background-color: #042A46;
+    border: solid 1rem black;
+}
+.admin-record-list table thead th {
+    padding: 10px;
+}
+
+.admin-record-list table tr td{
+    border-bottom: solid 1px #D4D4D4;
+    padding: 10px;
+}
+
+.admin-recordList-header {
+    display: flex;
+    justify-content: space-around;
+    
+    color: white;
+    background-color: #042A46;
+    width: 95%;
+    padding: 1rem;
+}
+
+.admin-recordList-header label {
+    width: 10rem;
+}
+
+.admin-recordsList-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 98%;
+    overflow-y: scroll;
+}
+
+.admin-recordsList-content label {
+    width: 10rem;
+}
+
+.admin-recordsList-content-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: solid 2px gray;
+}
+
+.admin-recordsList-content button {
+    border:none;
+    color: blue;
+    background-color: white;
+    font-style: italic;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.admin-recordsList-content button:hover {
+    color: gray;
+}

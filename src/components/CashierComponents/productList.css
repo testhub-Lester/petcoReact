@@ -1,0 +1,167 @@
+/* Product List - Cashier */
+
+.productList-container {
+    width: 103.7rem;
+    height: 42.5rem;
+    margin-top: 20px;
+}
+
+.productList-header {
+    display: flex;
+    background-color: #042A46;
+    gap: 1rem;
+    width: 76rem;
+    padding: 10px;
+}
+
+.productList-searchBar {
+    display: flex;
+    align-items: center;
+    border: solid 2px black;
+}
+
+.productList-searchBar button{
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    height: 3.2rem;
+    padding: 1rem;
+}
+
+.productList-searchBar button:hover {
+    color: white;
+    background-color: gray;
+}
+
+.productList-searchBar input {
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+    padding: .5rem;
+    outline: none;
+}
+
+.productList-content{
+    display: flex;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.productList-category {
+    background-color: white;
+    width: 20%;
+    height: 37.5rem;
+    padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.quickFilter-cashier {
+    display: flex;
+    flex-direction: column;
+}
+
+.productList-category-content hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.quickFilter-cashier h3 {
+    font-size: 1.2rem;
+}
+
+.quickFilter-cashier button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: start;
+    border: none;
+    background-color: white;
+    margin: 5px;
+    overflow: hidden;
+}
+
+.quickFilter-cashier button:hover {
+    color: gray
+}
+
+.quickFilter-cashier button p {
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 5px;
+    width: 1.2rem;
+    margin: .1rem;
+}
+
+.quickFilter-cashier button[value="true"]{
+    color: white;
+    background-color: #042A46;
+    padding: .3rem;
+    
+    padding-left: 2rem;
+    border-radius: 10px 25px 25px 10px;
+}
+
+/* PRODUCT CATEGORY - LIST */
+
+.productList-category-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.productList-category-list h3 {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.productList-category-list button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1.1rem;
+    text-align: start;
+    border: none;
+    background-color: white;
+    width: 18rem;
+    padding: 5px;
+    margin: 5px;
+}
+
+.productList-category-list button:hover {
+    color: gray
+}
+
+.productList-category-list button p {
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.cashier-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 59rem;
+    height: 39rem;
+    opacity: 20%;
+}
+
+.cashier-empty label {
+    font-size: 10rem;
+    color: gray;
+}
+
+.cashier-empty p {
+    font-size: 3rem;
+    color: gray;
+}

@@ -1,0 +1,110 @@
+.container-header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 4.5rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: var(--background-color);
+    border: var(--header-border);
+
+    width: 100%;
+    padding: .1%;
+    margin: 10px;
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav .logo .appName {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+    margin-left: .5rem;
+}
+
+.nav img {
+    width: 3.5rem;
+    padding: .5rem;
+    margin-left: 10px;
+}
+
+.nav h1 {
+    color: black;
+}
+
+.nav-side {
+    display: flex;
+}
+
+/* User Panel */
+
+.userPanel {
+    display: flex;
+    align-items: center;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: .5rem;
+    padding: 10px;
+}
+
+.userInfo h4 {
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-family: monospace;
+    font-size: 15px;
+    gap: .5rem;
+}
+
+.userInfo h4 p{
+    color: black;
+}
+
+.userInfo h6 {
+    color: gray;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.userProfile img{
+    border: solid 1px gray;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+}
+
+.connection {
+    display: flex;
+    gap: .5rem;
+}
+
+.connection label {
+    display: flex;
+    gap: .5rem
+}
+
+.connection button {
+    display: flex;
+    border: none;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.connection button:hover {
+    color: gray;
+}

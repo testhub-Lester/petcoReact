@@ -1,0 +1,110 @@
+/* Modal Discount - Cashier */
+
+.modalDiscount-modal {
+    margin: 0px;
+}
+
+
+.modalDiscount-container{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modalDiscount-panel {
+    background-color: #fefefe;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+.modalDiscount-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: .8rem;
+}
+
+.modalDiscount-header h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modalDiscount-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.modalDiscount-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.modalDiscount-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10px;
+}
+
+.modalDiscount-content label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modalDiscount-content input {
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: solid 2px gray;
+    width: 10rem;
+}
+
+.modalDiscount-content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.modalDiscount-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.modalDiscount-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 7rem;
+    padding: .2rem;
+}
+
+.modalDiscount-footer button:hover {
+    border: solid 3px gray;
+}
+
+.modalDiscount-footer button span {
+    font-size: 2rem;
+}
+
+.modalDiscount-footer button.save {
+    color: white;
+    background-color: #042A46;
+}
+
+.modalDiscount-footer button.cancel {
+    color: white;
+    background-color: red;
+}

@@ -1,0 +1,61 @@
+/* Transaction List - Analytics */
+
+.admin-inventoryListPanel {
+    margin: 0;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.admin-inventoryListHeader {
+    background-color: #042A46;
+    padding: 10px;
+}
+
+.admin-inventoryListHeader h2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+    gap: 1rem;
+}
+
+.admin-inventoryListContent {
+    background-color: white;
+    height: 31rem;
+    padding: 10px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+.admin-inventoryListContent hr {
+    width: 90%;
+    margin: auto;
+    margin: 10px;
+}
+
+.admin-inventoryListContent-header {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    font-weight: bolder;
+}
+
+.admin-inventoryListContent-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-inventoryListContent-list hr {
+    margin: 10px;
+}
+
+.admin-inventoryListContent-list label {
+    overflow: hidden;
+    width: 5rem;
+}
+
+.admin-inventoryItems {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}

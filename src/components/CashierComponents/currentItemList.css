@@ -1,0 +1,89 @@
+/* Current Item List - Cashier */
+
+.currentItemList-Panel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25rem;
+    height: 43.7rem;
+}
+
+.currentItemList-header {
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+.currentItemList-table {
+    height: 35rem;
+    padding-left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.currentItemList-table table{
+    width: 100%;
+}
+
+.currentItemList-table th, .currentItemList-table td{
+    text-align: start;
+    padding: .5rem;
+    border-bottom: solid 1px black;
+}
+
+.currentItemList-table td button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 5px;
+
+    margin-right: -1rem;
+}
+
+.currentItemList-table td button:hover {
+    background-color: gray;
+}
+
+.currentItemList-footer {
+    display: flex;
+    justify-content: center;
+    padding: .8rem;
+}
+
+.currentItemList-footer Link.links button {
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    width: 100rem;
+    padding: .8rem;
+}
+
+.currentItemList-footer Link.links button:hover {
+    background-color: #0056b3;
+}
+
+.currentItemList-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: gray;
+    width: 100%;
+    height: 30rem;
+}
+
+button.buttonProceed {
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    width: 20rem;
+    padding: .8rem;
+}
+
+button.buttonProceed:hover {
+    background-color: #3b96f7;
+}

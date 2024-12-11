@@ -1,0 +1,98 @@
+/* Edit Modal Information */
+.editInformation-modal {
+    margin: 0px;
+}
+
+
+.editInformation-container{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.editInformation-panel {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    width: 40rem;
+}
+
+.editInformation-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.editInformation-header h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.editInformation-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.editInformation-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.editInformation-content {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 14rem;
+}
+
+.editInformation-content textarea {
+    resize: none;
+    font-size: 1.5rem;
+    width: 95%;
+    height: 14rem;
+    padding: 5px;
+}
+
+.editInformation-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.editInformation-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 10rem;
+    padding: .5rem;
+}
+
+.editInformation-footer button:hover {
+    border: solid 3px gray;
+}
+
+.editInformation-footer button span {
+    font-size: 2rem;
+}
+
+.editInformation-footer button.save {
+    color: white;
+    background-color: #042A46;
+}
+
+.editInformation-footer button.cancel {
+    color: white;
+    background-color: red;
+}

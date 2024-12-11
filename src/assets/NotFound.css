@@ -1,0 +1,23 @@
+.notfound-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 3rem;
+    color: gray;
+
+    margin: 10%;
+}
+
+.notfound-page button {
+    font-size: 2rem;
+    color: gray;
+    margin-top: 5rem;
+    padding: 1rem;
+    width: 10rem;
+}
+
+.notfound-page button:hover {
+    color: black;
+}

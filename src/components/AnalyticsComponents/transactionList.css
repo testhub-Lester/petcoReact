@@ -1,0 +1,61 @@
+/* Transaction List - Analytics */
+
+.transactionListPanel {
+    width: 36rem;
+}
+
+.transactionListHeader {
+    background-color: #042A46;
+    padding: 10px;
+}
+
+.transactionListHeader h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: .5rem;
+}
+
+.transactionListContent {
+    background-color: white;
+    height: 19.5rem;
+    padding: 10px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+.transactionListContent hr {
+    margin: 10px;
+}
+
+.transactionListContent-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: bolder;
+}
+
+.transactionListContent-header label {
+    width: 9rem;
+}
+
+
+.transactionListContent-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.transactionListContent-list hr {
+    margin: 10px;
+}
+
+.transactionItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactionItems label {
+    width: 9rem;
+}

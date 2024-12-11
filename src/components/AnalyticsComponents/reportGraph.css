@@ -1,0 +1,43 @@
+/* Report Graph - Analytics*/
+.reportGraph-container h4 {
+    color: white;
+    background-color: #042A46;
+    padding: .5rem;
+}
+.reportGraphPanel {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 42.5rem;
+    height: 21rem;
+}
+
+.reportGraph-graph {
+    padding: 1rem;
+}
+
+.reportGraph-graph label {
+    padding: 1rem;
+}
+
+
+.reportGraph-content {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    width: 15rem;
+}
+
+.reportGraph-content label {
+    display: flex;
+    gap: 1rem;
+}
+
+.reportGraph-content label span {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}

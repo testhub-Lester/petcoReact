@@ -1,0 +1,203 @@
+/* Delete Item Modal - Inventory */
+.DeleteItem-modal {
+    margin: 0px;
+}
+
+
+.DeleteItem-container{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.DeleteItem-panel {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.DeleteItem-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.DeleteItem-header h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.DeleteItem-header h1 span{
+    font-size: 2rem;
+}
+
+
+.DeleteItem-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.DeleteItem-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.DeleteItem-content {
+    display: flex;
+    flex-direction: column;
+    height: 24rem;
+}
+
+.DeleteItem-content-info {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+
+.DeleteCategoryA {
+    display: flex;
+    gap: 2rem;
+}
+
+.DeletesA {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 1rem;
+}
+
+.DeletesA label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.DeletesA select {
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    border-bottom: solid 2px gray;
+    width: 10rem;
+    padding: 5px;
+}
+
+.itemDeleteName {
+    display: grid;
+    margin: 10px;
+}
+
+.itemDeleteName input{
+    border: none;
+    border-bottom: solid 2px gray;
+}
+
+.itemDeleteInfo {
+    display: grid;
+    justify-content: start;
+    margin: 10px;
+}
+
+.itemDeleteInfo input{
+    text-align: end;
+    border: none;
+    border-bottom: solid 2px gray;
+    width: 10rem;
+}
+
+.DeleteItem-content input {
+    align-self: center;
+    resize: none;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.DeleteItem-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.DeleteItem-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 10rem;
+    padding: .5rem;
+}
+
+.DeleteItem-footer button:hover {
+    border: solid 3px gray;
+}
+
+.DeleteItem-footer button span {
+    font-size: 2rem;
+}
+
+.DeleteItem-footer button.save {
+    color: white;
+    background-color: #042A46;
+}
+
+.DeleteItem-footer button.cancel {
+    color: white;
+    background-color: red;
+}
+
+.DeletesA-list-header {
+    display: flex;
+    justify-content: space-between;
+    width: 33rem;
+    border-bottom: solid 2px black;
+}
+.DeletesA-list-header label {
+    font-size: 1.4rem;
+    width: 7rem;
+    color: gray;
+}
+
+.DeletesA-list-items {
+    height: 18rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.DeletesA-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 32rem;
+    border-bottom: solid 2px gray;
+}
+.DeletesA-list-item label {
+    font-size: 1rem;
+    width: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.DeletesA-list-item button {
+    font-size: 1rem;
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    padding: .3rem;
+}
+
+.DeletesA-list-item button:hover {
+    background-color: orange;
+}

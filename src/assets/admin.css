@@ -1,0 +1,54 @@
+.container-admin {
+    display: flex;
+    background-color: #ECEFF0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-admin {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 1rem;
+    
+    margin-top: .5rem;
+}
+
+
+.adminHeader-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 115rem;
+    height: 3rem;
+    padding: 1.2rem;
+}
+
+.adminHeader-panel button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: gray;
+    border: solid 3px gray;
+    border-radius: 10px;
+    background-color: white;
+
+    gap: .5rem;
+    width: 15rem;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.adminHeader-panel button:hover {
+    color: black;
+    border: solid 3px black;
+}
+
+.adminHeader-panel button[value="true"] {
+    color: white;
+    background-color: #06436e;
+    border: solid 3px white;
+}

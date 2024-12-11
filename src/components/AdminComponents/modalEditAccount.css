@@ -1,0 +1,204 @@
+
+.editAccount-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.editAccount-modal {
+    background-color: #fefefe;
+    margin: 3% auto;
+    border: 1px solid #888;
+    width: 40%;
+    height: 80%;
+}
+
+.editAccount-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.editAccount-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.editAccount-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.editAccount-content {
+    background-color: white;
+    height: 35rem;
+}
+
+.editAccount-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.editAccount-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 10rem;
+    padding: .5rem;
+}
+
+.editAccount-footer button:hover {
+    border: solid 3px gray;
+}
+
+.editAccount-footer button span {
+    font-size: 2rem;
+}
+
+.editAccount-footer button.save {
+    color: white;
+    background-color: #042A46;
+}
+
+.editAccount-footer button.cancel {
+    color: white;
+    background-color: red;
+}
+
+.editAccount-List {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.editAccountIdentity {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+
+.editAccountRole {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 15rem;
+}
+
+.editAccount-content input:hover {
+    border: solid 2px black;
+}
+
+.editAccount-content select {
+    border: none;
+    border-bottom: solid 2px gray;
+    font-size: 1.5rem;
+    padding: .2rem;
+    margin: 10px;
+}
+
+.personalInformation-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.personalInformationName {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+
+.personalInformationOther {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+
+.editAccount-content h1{
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.editAccountIdentity input{
+    border: solid 2px gray;
+    font-size: 1.5rem;
+    padding: .2rem;
+    margin: 10px;
+}
+
+.editAccountIdentity input[id="1"]{
+    border: solid 3px red;
+}
+
+.editAccountIdentity label{
+    color: gray;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+.editAccountIdentity label[id="1"]{
+    color: red;
+}
+
+.personalInformationName input{
+    border: solid 2px gray;
+    font-size: 1.5rem;
+    padding: .2rem;
+    margin: 10px;
+}
+
+.personalInformationName input[id="false"]{
+    border: solid 2px red;
+}
+
+
+.personalInformationName label {
+    color: gray;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+.personalInformationName label[id="false"]{
+    color: red;
+}
+
+
+.personalInformationOther input{
+    border: solid 2px gray;
+    font-size: 1.5rem;
+    padding: .2rem;
+    margin: 10px;
+}
+
+.personalInformationOther label {
+    color: gray;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+.personalInformationOther label[id="1"]{
+    color: red;
+}
+
+.personalInformationOther input[id="1"]{
+    border: solid 3px red;
+}
+
+

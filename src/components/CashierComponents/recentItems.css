@@ -1,0 +1,59 @@
+/* Recent Items - Cashier */
+
+.container-popularItem {
+    display: flex;
+    align-items: center;
+    background-color: #042A46;
+
+    padding-left: 10px;
+}
+
+.container-popularItem h2 {
+    color: white;
+}
+
+.popularItemPanel{
+    background-color: #042A46;
+
+    width: 33rem;
+    height: 6rem;
+}
+
+.popularItemList{
+    display: flex;
+    justify-content: start;
+}
+
+.popularItemList a{
+    text-decoration: none;
+}
+
+.popularItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: white;
+    border: solid 3px gray;
+    
+    width: 6rem;
+    height: 4rem;
+    margin: 14px;
+}
+
+.popularItem:hover{
+    color: white;
+    background-color: #EEEEF2;
+}
+
+.popularItem p{
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+
+.popularItem p.sold {
+    font-size: 10px;
+    font-weight: bold;
+}

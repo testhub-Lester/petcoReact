@@ -1,0 +1,102 @@
+/* Edit Modal Bulletin */
+
+.toast-modelEditBulletin {
+    position: fixed;
+
+    left: 50%;
+    top: 90%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.editBulletin-container{
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.editBulletin-panel {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+.editBulletin-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.editBulletin-header h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.editBulletin-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.editBulletin-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.editBulletin-content {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 14rem;
+}
+
+.editBulletin-content textarea {
+    resize: none;
+    font-size: 1.5rem;
+    width: 95%;
+    height: 14rem;
+    padding: 5px;
+}
+
+.editBulletin-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.editBulletin-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 10rem;
+    padding: .5rem;
+}
+
+.editBulletin-footer button:hover {
+    border: solid 3px gray;
+}
+
+.editBulletin-footer button span {
+    font-size: 2rem;
+}
+
+.editBulletin-footer button.save {
+    color: white;
+    background-color: #042A46;
+}
+
+.editBulletin-footer button.cancel {
+    color: white;
+    background-color: red;
+}

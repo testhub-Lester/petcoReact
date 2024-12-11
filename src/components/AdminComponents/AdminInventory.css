@@ -1,0 +1,66 @@
+.adminInventory-panel {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.adminInventory-leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.adminInventory-rightside {
+}
+
+.adminInventorySettings{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+}
+
+.adminInventorySettings label {
+    font-size: 2rem;
+    color: white;
+    background-color: #042A46;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.adminInventorySettings select {
+    font-size: 2rem;
+    color: white;
+    background-color: #06436e;
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.adminInventory-lists {
+    margin-top: 5rem;
+    padding: .5rem;
+    width: 31rem;
+}
+
+.adminInventory-lists hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.adminInventory-lists-header {
+    display: flex;
+    gap: 1rem;
+}
+
+.adminInventory-lists-header button {
+    border-radius: 1rem;
+    border: solid 2px black;
+    padding: .5rem;
+}
+
+.adminInventory-lists-header button[value="true"] {
+    color: white;
+    border: solid 2px #06436e;
+    background-color: #06436e;
+}

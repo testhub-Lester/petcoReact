@@ -1,0 +1,15 @@
+.adminDashboard-panel {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.adminDashboard-leftside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.adminDashboard-rightside {
+}

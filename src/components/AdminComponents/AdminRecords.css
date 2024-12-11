@@ -1,0 +1,73 @@
+.main-records1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.topSide-recordsAdmin {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.recordsAdminSettings {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: .5rem;
+    width: 20rem;
+    height: 27rem;
+    padding: .5rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.recordsAdminSettings label {
+    font-size: 2rem;
+    color: white;
+    background-color: #042A46;
+    padding: .5rem;
+}
+
+.recordsAdminSettings hr{
+    margin: 1rem;
+}
+
+.recordsAdminSettings select {
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+.recordsAdminSettings button {
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+.recordsAdminSettings button:hover {
+    color: gray;
+    border: solid 2px gray;
+}
+
+.recordsAdminSettings button[value="true"] {
+    color: white;
+    background-color: #06436e;
+}
+
+.recordsAdminSettings input {
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+.recordsAdminSettings label {
+    text-align: center;
+}
+
+.admin-records-report {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recordsAdminSettings-search input {
+    width: 13.8rem;
+}

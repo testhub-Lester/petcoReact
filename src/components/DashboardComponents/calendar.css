@@ -1,0 +1,17 @@
+/* Calendar */
+
+.calendarPanel {
+    background-color:white;
+    margin-bottom: -1rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.calendarPanel h2 {
+    color: white;
+    background-color: #042A46;
+    padding: 8px;
+}
+
+.calendar table {
+    padding: 10px;
+}

@@ -1,0 +1,119 @@
+/* information Board - Dashboard */
+
+.informationPanel{
+    background-color: white;
+    
+    width: 38rem;
+    height: 18rem;
+
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.information-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: white;
+    background-color: #042A46;
+}
+
+.information-header h2{
+    padding: .5rem;
+}
+
+.information-header button{
+    color: white;
+    background-color: #042A46;
+    border: solid 2px white;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.information-header button:hover {
+    color: white;
+    background-color: gray;
+}
+
+.information-info {
+    height: 85%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.information-info-container {
+    border: solid 2px gray;
+    height: 13rem;
+    margin: 1rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+.information-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.information-info-content label.authorTitle{
+    display: flex;
+    gap: .2rem;
+
+}
+
+.information-info-content label.authorTitle p {
+    color: white;
+    background-color: #042A46;
+    padding: .8rem;
+    margin: .2rem;
+}
+
+.information-info-content textarea.content {
+    all: unset;
+    padding: .8rem;
+    width: 32.5rem;
+    height: 6rem;
+    word-break: break-all;
+
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.information-info-content label.date {
+    display: flex;
+    justify-content: end;
+    font-size: .8rem;
+    gap: 1rem;
+    margin: .5rem;
+}
+
+.information-info-content label.date p {
+    color: gray;
+    padding: .5rem;
+}
+
+.information-header p{
+    font-size: 1rem;
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    width: 2rem;
+    padding: .2rem;
+}
+
+.information-info-content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information-info-content-header button {
+    background-color: white;
+    border-radius: 10px;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.information-info-content-header button:hover {
+    color: white;
+    background-color: gray;
+}

@@ -1,0 +1,26 @@
+@import url('https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp');
+
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+body {
+    width: 100%;
+    overflow: hidden;
+    background-color: #D4D4D4;
+}
+
+.appMain {
+    margin-top: 4rem;
+}
+
+/*
+
+#042A46
+
+#007bff
+#0056b3
+
+*/

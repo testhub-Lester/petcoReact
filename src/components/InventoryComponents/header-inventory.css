@@ -1,0 +1,31 @@
+/* Header Panel - Inventory*/
+
+.headerInventoryPanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerInventoryPanel h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #042A46;
+    
+    width: 15rem;
+    height: 3rem;
+    padding: 10px;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+
+.headerInventoryPanel button {
+    display: none;
+    border: none;
+}
+
+.headerInventoryPanel button h1 {
+    color: white;
+    background-color: gray;
+}

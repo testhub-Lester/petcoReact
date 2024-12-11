@@ -1,0 +1,23 @@
+/* Time - Dashboard */
+
+.timePanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #042A46;
+
+    height: 4rem;
+    padding: 10px;
+
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.timePanel h2{
+    color: white;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.timePanel h2#time{
+    color: white;
+}

@@ -1,0 +1,77 @@
+
+.accountActive-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 45rem;
+    height: 26rem;
+    
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, .3);
+}
+
+.accountActive-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+}
+
+.accountActive-header h2 {
+    padding: .5rem;
+    margin-left: 1rem;
+}
+
+.accountActive-option {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.accountActive-option button{
+    color: white;
+    background-color: #042A46;
+    border: solid 2px white;
+    width: 6rem;
+    padding: .5rem;
+}
+
+.accountActive-option button:hover {
+    color: gray;
+    border: solid 2px gray;
+}
+
+.accountActive-list {
+    height: 100%;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+
+.accountActive-list-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px black;
+}
+
+.accountActive-list-header label {
+    color: gray;
+    font-size: 1.5rem;
+    width: 9.5rem;
+    padding: .5rem;
+
+}
+
+.accountActive-list-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px gray;
+}
+
+.accountActive-list-items label {
+    font-size: 1rem;
+    padding: .5rem;
+    width: 9.5rem;
+
+}

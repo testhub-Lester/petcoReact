@@ -1,0 +1,271 @@
+
+.NotificationAdmin-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.NotificationAdmin-modal {
+    background-color: #fefefe;
+    margin: 10% auto;
+    border: 1px solid #888;
+    width: 32%;
+}
+
+.NotificationAdmin-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #042A46;
+    padding: 1rem;
+}
+
+.NotificationAdmin-header button {
+    color: white;
+    background-color: gray;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+
+.NotificationAdmin-header button:hover{
+    color: black;
+    border: solid 3px gray;
+}
+
+.NotificationAdmin-content {
+    background-color: white;
+    height: 25rem;
+    padding: 1rem;
+}
+
+.NotificationAdmin-footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+    padding: 1rem;
+}
+
+.NotificationAdmin-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 3px white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    width: 10rem;
+    padding: .5rem;
+}
+
+.NotificationAdmin-footer button:hover {
+    border: solid 3px gray;
+}
+
+.NotificationAdmin-footer button span {
+    font-size: 2rem;
+}
+
+.NotificationAdmin-footer button.cancel {
+    color: white;
+    background-color: red;
+}
+
+.NotificationAdmin-content {
+    display: flex;
+    height: 30rem;
+}
+
+.NotificationAdmin-item {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
+.NotificationAdmin-item label {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.NotificationAdmin-item button {
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.NotificationAdmin-item button label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NotificationAdmin-item button label p {
+    text-align: start;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.NotificationAdmin-content-boards {
+    width: 40rem;
+}
+
+.NotificationAdmin-content-boards button {
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5em;
+    margin-left: 1rem;
+}
+
+.NotificationAdmin-content-boards button[value="true"]{
+    color: white;
+    background-color: #042A46;
+}
+
+
+.NotificationAdmin-content-boards hr{
+    margin: 1rem;
+}
+
+.NotificationAdmin-content-inventory {
+    border-left: solid 2px gray;
+    width: 70%;
+    height: 30rem;
+}
+
+.NotificationAdmin-content-inventory label {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+.NotificationAdmin-content-inventory button {
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5em;
+    margin-left: 1rem;
+}
+
+.NotificationAdmin-content-inventory button[value="true"]{
+    color: white;
+    background-color: #042A46;
+}
+
+.NotificationAdmin-content-inventory hr {
+    margin: 1rem;
+}
+
+.NotificationAdmin-content-updates-header {
+    display: flex;
+    padding: .5rem;
+    margin: .5rem;
+    border-bottom: solid 2px black;
+}
+
+.NotificationAdmin-content-updates-header label{
+    color: gray;
+    width: 7rem;
+    
+}
+
+.NotificationAdmin-content-updates-list {
+    display: flex;
+    padding: .5rem;
+    margin: .5rem;
+    border-bottom: solid 2px gray;
+}
+
+.NotificationAdmin-content-updates-list label{
+    font-size: .8rem;
+    width: 7rem;
+}
+
+.NotificationAdmin-content-quantityLow {
+    display: flex;
+    flex-direction: column;
+}
+
+.NotificationAdmin-content-quantityLow-header {
+    display: flex;
+    padding: .5rem;
+    border-bottom: solid 2px black;
+    width: 35rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.NotificationAdmin-content-quantityLow-header label{
+    color: gray;
+    width: 7rem;
+    
+}
+
+.NotificationAdmin-content-quantityLow-list {
+    align-items: center;
+    display: flex;
+    padding: .5rem;
+    border-bottom: solid 2px gray;
+    width: 34rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.NotificationAdmin-content-quantityLow-list label{
+    text-align: center;
+    width: 6rem;
+}
+
+.NotificationAdmin-content-bulletin {
+    height: 27rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 3rem;
+    margin-right: .5rem;
+}
+
+.NotificationAdmin-content-bulletin button {
+    border: solid 2px gray;
+    border-radius: 10px;
+    width: 28rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.NotificationAdmin-content-bulletin button:hover {
+    border: solid 2px black;
+}
+
+.NotificationAdmin-content-bulletin button .NotificationAdmin-content-bulletin-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    cursor: pointer;
+}
+
+.NotificationAdmin-content-bulletin button .NotificationAdmin-content-bulletin-header label {
+    color: gray;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.NotificationAdmin-content-bulletin button .NotificationAdmin-content-bulletin-content {
+    display: flex;
+    padding: .2rem;
+    cursor: pointer;
+}
+
+.NotificationAdmin-content-bulletin button .NotificationAdmin-content-bulletin-content label {
+    color: black;
+    font-size: 1rem;
+    text-align: start;
+    word-break: break-all;
+    padding: .5rem;
+    cursor: pointer;
+}
